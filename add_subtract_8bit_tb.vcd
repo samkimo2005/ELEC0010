@@ -1,0 +1,79 @@
+$date
+	Thu Mar 12 23:15:07 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module add_subtract_8bit_tb $end
+$var wire 1 ! c_out $end
+$var wire 8 " S [7:0] $end
+$var reg 8 # A [7:0] $end
+$var reg 8 $ B [7:0] $end
+$var reg 1 % subtract $end
+$scope module dut $end
+$var wire 8 & A [7:0] $end
+$var wire 8 ' B [7:0] $end
+$var wire 1 % subtract $end
+$var wire 1 ( B_int $end
+$var reg 8 ) S [7:0] $end
+$var reg 1 ! c_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b110 )
+1(
+b11 '
+b101 &
+0%
+b11 $
+b101 #
+b110 "
+0!
+$end
+#10000
+b10000 "
+b10000 )
+b1 $
+b1 '
+b1111 #
+b1111 &
+#20000
+1!
+b0 "
+b0 )
+b11111111 #
+b11111111 &
+#30000
+1(
+0!
+b1011 "
+b1011 )
+1%
+b100 $
+b100 '
+b1001 #
+b1001 &
+#40000
+0(
+b10001 "
+b10001 )
+b1 $
+b1 '
+b10000 #
+b10000 &
+#50000
+b100 "
+b100 )
+b101 $
+b101 '
+b11 #
+b11 &
+#60000
